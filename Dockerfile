@@ -4,8 +4,6 @@ MAINTAINER Chen Yuelong <yuelong.chen.btr@gmail.com>
 ENV DEBIAN_FRONTEND noninteractive
 ARG hipstr_version=v0.6.2
 
-
-
 RUN apt-get update
 RUN apt-get install -y gcc git zlib1g-dev libbz2-dev liblzma-dev g++ libhts-dev make
 RUN cd /tmp/ && \
